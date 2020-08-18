@@ -38,6 +38,12 @@ String | `.substring(begin, end?)` | return substr
 
 ## Collections
 ### List, Queue, Set
+```java
+List<Integer> list = new ArrayList<>();
+Stack<Integer> stk = new Stack<>();
+Queue<Integer> q = new ArrayDeque<>();
+Set<Integer> s = new HashSet<>();
+```
 
 Return | Method | Description 
 --- |--- | ---
@@ -94,6 +100,9 @@ Collections.sort(
     w1.compareTo(w2) :
     count.get(w2) - count.get(w1);
 )
+
+//Sort in reverse
+Collections.sort(arr, Collections.reverseOrder());
 ```
 2. Binary Search
 ```java
